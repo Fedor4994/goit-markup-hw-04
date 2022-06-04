@@ -133,6 +133,10 @@ body{
         color: var(--color-text);
 }
 
+.email-img{
+    margin-right: 10px;
+}
+
 .phone-number{
         font-weight: 500;
         font-size: 14px;
@@ -140,6 +144,10 @@ body{
         letter-spacing: 0.02em;
     
         color: var(--color-text);
+}
+
+.phone-img{
+    margin-right: 10px;
 }
 
 .menu-link:hover,
@@ -150,18 +158,16 @@ body{
 .email:hover,
 .email:focus{
     color: var(--accent-color);
+    fill: currentColor;
 }
 
 .phone-number:hover,
 .phone-number:focus{
     color: var(--accent-color);
+    fill: currentColor;
 }
 /* ========== STYDIO HERO ========== */
 .stydio-hero-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -174,11 +180,16 @@ body{
         text-transform: uppercase;
         color: #FFFFFF;
         margin-bottom: 30px;
+        text-align: center;
+
+
  
 }
 
 .stydio-hero{
-    background: #2F303A;
+    background-color: #C4C4C4;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/shapka.png");
+    background-size: cover;
 }
 
 .modal-btn{
@@ -195,6 +206,9 @@ body{
         border-radius: 4px;
         cursor: pointer;
         padding: 10px 32px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 /* ========== BENEFITS ========== */
